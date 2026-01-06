@@ -1,6 +1,5 @@
 """
 scoring_engine.py
-
 This module aggregates behavioral signal outputs and produces
 a high-level confidence assessment of observed activity.
 

@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 
-from data.log_loader import LogLoader
+from data_loader.log_loader import LogLoader
 from baseline.baseline_builder import BaselineBuilder
 from signals.rate_deviation_signal import RateDeviationSignal
 from scoring_engine.scoring_engine import ScoringEngine

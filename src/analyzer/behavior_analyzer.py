@@ -35,7 +35,9 @@ class BehaviorAnalyzer:
         signal_results = []
 
         rate_signal = RateDeviationSignal(baseline_rate)
-        current_rate = baseline_rate * 2.5  # synthetic current activity for demo
+
+        # demo: simulate higher current activity
+        current_rate = baseline_rate * 2.5
 
         rate_result = rate_signal.evaluate(current_rate)
         signal_results.append(rate_result)
